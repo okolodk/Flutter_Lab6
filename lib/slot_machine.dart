@@ -121,12 +121,15 @@ class _SlotMachineState extends State<SlotMachine> {
           alignment : Alignment.topRight,
           child: Padding(
             padding: EdgeInsets.only(right: 16, top: 8),
-            child: Icon(
-              _isMuted
-                ? Icons.volume_off
-                : Icons.volume_up,
-              color: Colors.white,
-              size: 28,
+            child: IconButton(
+              onPressed: _toggleMute, 
+                icon: Icon(
+                  _isMuted
+                    ? Icons.volume_off
+                    : Icons.volume_up,
+                  color: Colors.white,
+                  size: 28,
+                ),
             ),
           ),
         ),
