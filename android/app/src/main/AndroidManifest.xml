@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="slot_machine6"
+        android:label="Слот-машина"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
