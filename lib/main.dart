@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:slot_machine6/slot_machine.dart';
 import 'package:slot_machine6/sound_service.dart';
 
-// Run | Debug | Profile
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SoundService.init();

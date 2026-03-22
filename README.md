@@ -1,17 +1,57 @@
-# slot_machine6
+# Учебное приложение. 🎰 Слот-машина 
 
-A new Flutter project.
+Простое Flutter-приложение - симулятор казино. Крути барабаны, собирай одинаковые сиволы и выигрывай монеты!
 
-## Getting Started
+## 📱Скриншоты
+|Главный экран|Победа|Монеты закончились|
+|:----:|:-----:|:----:|
+|![Главный экран](steps/main_screen.png)|![Главный экран](steps/win.png)|![Главный экран](steps/no_coins.png)|
+---
 
-This project is a starting point for a Flutter application.
+## Как играть
 
-A few resources to get you started if this is your first Flutter project:
+- Нажмите **КРУТИТЬ** чтобы запустить барабаны
+- Три одинаковых символа — победа (+3 монеты)
+- Три семёрки — джекпот (+10 монет)
+- Разные символы — проигрыш (-1 монета)
+- Начните заново кнопкой **Начать заново**
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
+## 🚀 Запуск проекта
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Требования:** Flutter 3.x, Dart 3.x
+
+```bash
+# Клонировать репозиторий
+git clonehttps://github.com/okolodk/Flutter_Lab6
+
+# Перейти в папку
+cd slot_machine
+
+# Установить зависимости
+flutter pub get
+
+# Запустить в Chrome
+flutter run -d chrome
+```
+---
+## ⚙️ Технологии
+- Flutter 3.41.2
+- Dart 3.11.0
+- Платформы: Web, Android
+ 
+ ---
+## 📚 Что изучено
+- StatefulWidget и управление состоянием  через setState()
+- Работа с локальными изображениями - через Image.asset()
+- Генерация случайных чисел через dart:math
+- Анимация через async/await и AnimatedOpacity
+- Создание иконки в Krita и подключение через flutter_launcher_icons
+- Сборка под Web и Android
+- Работа со звуком:
+--Web Audio API (для браузера)
+--Пакет audioplayers (кроссплатформенное решение)
+
+## 👤 Автор
+Григорий Алексеев — группа ИСП-233
+Лабораторная работа №6, 2026
